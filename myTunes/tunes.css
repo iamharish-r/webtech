@@ -1,0 +1,255 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+/* header */
+#nav {
+  border: 1px solid black;
+  background-color: black;
+  height: 50px;
+  width: 100vw;
+  word-spacing: 30px;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  text-align: justify;
+}
+nav > a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  background-color: chocolate;
+  padding: 20px;
+}
+/*End of the header*/
+
+/* myTunes*/
+#division1 {
+  background-image: url(../tunes/IMG/bg\ image\ 0.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+#h11 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-top: 310px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 64px;
+}
+
+#h21 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#p1 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/*End of myTunes section*/
+
+/*section - Music*/
+
+#division2 {
+  background-image: url(../tunes/IMG/bg\ wallpaper.png);
+  background-size: cover;
+  height: max-content;
+}
+
+#h12 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 64px;
+}
+
+#h22 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#p2 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#button1 {
+  background-color: rgb(211, 33, 33);
+  padding: 20px;
+  font-weight: normal;
+  margin-left: 650px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#p3 {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#img1 {
+  padding-left: 100px;
+}
+/* End of Music section*/
+
+/* Section - video*/
+
+#h23 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+  padding-top: 50px;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#p4 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  justify-content: center;
+  margin-left: 90px;
+  margin-right: 90px;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#button2 {
+  background-color: rgb(23, 42, 219);
+  padding: 20px;
+  font-weight: normal;
+  margin-left: 700px;
+  margin-top: 30px;
+}
+
+#img2 {
+  padding-left: 200px;
+}
+
+#h24 {
+  color: rgb(0, 0, 0);
+  font-size: xx-large;
+  padding-left: 300px;
+  padding-top: 51px;
+  padding-bottom: 50px;
+}
+/*end of the Video section*/
+
+/*section - video*/
+
+#division4 {
+  background-image: url(../tunes/IMG/night_sky.jpg);
+}
+
+#h24 {
+  color: white;
+  font-size: xx-large;
+  padding-top: 50px;
+}
+#p5 {
+  color: white;
+  padding-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#redeem {
+  text-decoration: none;
+}
+
+/*End of the video section*/
+
+/* Gift Cards section*/
+
+#division5 {
+  width: 80%;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px 30px;
+}
+
+#division51 {
+  overflow: hidden;
+}
+
+#img3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#h25 {
+  color: rgb(53, 51, 51);
+  font-size: xx-large;
+}
+#division52 {
+  color: rgb(53, 51, 51);
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+}
+#division53 {
+  padding-left: 20px;
+}
+
+#p6,
+#p7 {
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 16px;
+}
+
+/*End of Gift Cards section*/
+
+/*Footer division*/
+#division6 {
+  text-decoration: none;
+  display: flex;
+  background-image: url(../tunes/IMG/bg\ wallpaper.png);
+  color: white;
+  padding: 50px;
+  justify-content: space-evenly;
+}
+#ul1 {
+  text-decoration: none;
+  color: white;
+}
+/*End of the footer division*/
+
+/* division - copyright */
+
+#division7 {
+  background-color: rgb(53, 51, 51);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+/*End of the copyright division*/
